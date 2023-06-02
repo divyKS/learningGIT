@@ -14,6 +14,12 @@ touch file.txt -> to create a new file
 
 git status -> to know what all changes have been made that have not been added to hstory, no one knows yet if those have been made
 
-git add . -> now they are on the stage to click their picture
+git add . -> now they are on the stage to click their picture all those who were untracked in the currrent directorygi
 
 git commit -m "message" -> click their picture to pemanently saved
+
+git restore --staged names.txt -> if we want to unstage a file that we staged by mistake 
+
+vi names.txt -> to enter the file and write content in it through the terminal
+
+cat names.txt -> to show the contents of the file
