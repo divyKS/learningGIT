@@ -23,3 +23,11 @@ git restore --staged names.txt -> if we want to unstage a file that we staged by
 vi names.txt -> to enter the file and write content in it through the terminal
 
 cat names.txt -> to show the contents of the file
+
+git log -> history of commit
+
+rm -rf names.txt -> to delete that file
+
+git reset 5e2a5feecee51c59f40c144aa5583925c21b82d6 -> the commits above this commit will be removed, to get back our project to a certain state
+
+git stash -> we want to put some file away for some time we dont want it to be saved and be seen by others, but we want it to be available when we need it back
