@@ -8,6 +8,8 @@ mkdir -> make directory
 
 cd -> change directory
 
+cd .. -> go one directory back
+
 git init -> intilaise an empty git repository in this folder, a .git (hidden folder) is created to store all the history etc.
 
 touch file.txt -> to create a new file
@@ -44,3 +46,39 @@ git remote add origin urlOfYourOwnRepository.io -> remote i.e. working with urls
 
 git push origin master -> to save the changes to that url, origin is the url we want to push, mater is the branch we want to push 
 
+// after making changes again commit the things and then git push origin master
+
+--------------------------------------------------
+Branches
+all the commits are formed in a form of a branch
+we never commit on the main branch
+all the new commits that we make are added on the head
+
+git branch newFeature -> creates a new branch newFeature
+
+git checkout newFeature -> we now make our head point to the newFeature branch so now all commits that are going to happen will happen to this branch, not the origin main branch
+
+we might be making some changes, but then some other person got merged and now the main branch is somewhat changed, so our work will go on side by side and the main branch goes on to the other side
+now if our code has to be merged it is good then it can be merged with the original main brach, this merging happens via a pull request
+
+git merge newFeature -> but before this you must checkout to the main branch 
+
+we can't make changes directly to some code base on github so we fork it into our account, now we can do anything with that 
+
+when a repo is in our account its name is origin
+
+from where we have forked the repo that is known as upstream url
+
+git remote add upstream linkFromWhre.youForked -> to add that 
+
+but again we don't commit to main branch even in our account, so we create another brannch and commit on that
+
+now we want to merge the changes in divy branch in my account to the actual code in original account
+
+so push the branch to your account
+git push origin divy
+
+then on our account we get option to do the pull request which says->
+please merge the divy branch on commclassroomOP repo on divyKS account to the main branch in kunalkushwaha account of commclassroomOP repo
+
+if a branch already has a pull request associated with it, it doesnt allow to create a new pull request that is why when ever we have made a new feature of made any changew we do so by creating another branch
