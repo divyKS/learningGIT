@@ -1,0 +1,19 @@
+ls -> list
+
+ls -a -> show me all hidden files too 
+
+ls .git -> show me what is inside .git folder
+
+mkdir -> make directory
+
+cd -> change directory
+
+git init -> intilaise an empty git repository in this folder, a .git (hidden folder) is created to store all the history etc.
+
+touch file.txt -> to create a new file
+
+git status -> to know what all changes have been made that have not been added to hstory, no one knows yet if those have been made
+
+git add . -> now they are on the stage to click their picture
+
+git commit -m "message" -> click their picture to pemanently saved
