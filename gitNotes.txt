@@ -38,3 +38,9 @@ git stash clear -> we dont want you there, so just get rid of them
 
 --------------------------------------------------
 
+git remote -v -> tells what all url have been linked to this git folder
+
+git remote add origin urlOfYourOwnRepository.io -> remote i.e. working with urls,  origin is the name given to that url,  like we save a contact number with a name, the url is saved with name origin, by convention when we are creating some repo in our own account we keep it origin
+
+git push origin master -> to save the changes to that url, origin is the url we want to push, mater is the branch we want to push 
+
