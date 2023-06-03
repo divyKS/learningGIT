@@ -91,4 +91,6 @@ no directories, only files
 
 no renaming
 
-automatic branching if we checkout to some previous commit and then start commiting again from there 
+automatic branching if we checkout to some previous commit and then start commiting again from there
+
+git add -p 
