@@ -82,3 +82,13 @@ then on our account we get option to do the pull request which says->
 please merge the divy branch on commclassroomOP repo on divyKS account to the main branch in kunalkushwaha account of commclassroomOP repo
 
 if a branch already has a pull request associated with it, it doesnt allow to create a new pull request that is why when ever we have made a new feature of made any changew we do so by creating another branch
+
+---------------------------------------------------
+
+a commit can be thought of as a difference
+
+no directories, only files
+
+no renaming
+
+automatic branching if we checkout to some previous commit and then start commiting again from there 
